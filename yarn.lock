@@ -1103,6 +1103,13 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.1.tgz#5c85d662f76fa1d34575766c5dcd6615abcd30d8"
   integrity sha512-FZdkNBDqBRHKQ2MEbSC17xnPFOhZxeJ2YGSfr2BKf3sujG49Qe3bB+rGCwQfIaA7WHnGeGkSijX4FuBCdrzW/g==
 
+MemoryGameend-transform@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/MemoryGameend-transform/-/MemoryGameend-transform-0.4.0.tgz#d76ebf8ca94d276e247a36bad44a4b74ab611991"
+  integrity sha1-126/jKlNJ24keja61EpLdKthGZE=
+  dependencies:
+    default-require-extensions "^1.0.0"
+
 abab@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.0.tgz#aba0ab4c5eee2d4c79d3487d85450fb2376ebb0f"
@@ -1240,13 +1247,6 @@ anymatch@^2.0.0:
   dependencies:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
-
-MemoryGameend-transform@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/MemoryGameend-transform/-/MemoryGameend-transform-0.4.0.tgz#d76ebf8ca94d276e247a36bad44a4b74ab611991"
-  integrity sha1-126/jKlNJ24keja61EpLdKthGZE=
-  dependencies:
-    default-require-extensions "^1.0.0"
 
 aproba@^1.0.3, aproba@^1.1.1:
   version "1.2.0"
@@ -6089,9 +6089,9 @@ memory-fs@^0.4.0, memory-fs@~0.4.1:
     readable-stream "^2.0.1"
 
 merge-deep@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/merge-deep/-/merge-deep-3.0.2.tgz#f39fa100a4f1bd34ff29f7d2bf4508fbb8d83ad2"
-  integrity sha512-T7qC8kg4Zoti1cFd8Cr0M+qaZfOwjlPDEdZIIPPB2JZctjaPM4fX+i7HOId69tAti2fvO6X5ldfYUONDODsrkA==
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/merge-deep/-/merge-deep-3.0.3.tgz#1a2b2ae926da8b2ae93a0ac15d90cd1922766003"
+  integrity sha512-qtmzAS6t6grwEkNrunqTBdn0qKwFgNWvlxUbAV8es9M7Ot1EbyApytCnvE0jALPa46ZpKDUo527kKiaWplmlFA==
   dependencies:
     arr-union "^3.1.0"
     clone-deep "^0.2.4"
@@ -10046,6 +10046,11 @@ worker-farm@^1.5.2:
   dependencies:
     errno "~0.1.7"
 
+wrMemoryGamey@1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/wrMemoryGamey/-/wrMemoryGamey-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
+  integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+
 wrap-ansi@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-2.1.0.tgz#d8fc3d284dd05794fe84973caecdd1cf824fdd85"
@@ -10053,11 +10058,6 @@ wrap-ansi@^2.0.0:
   dependencies:
     string-width "^1.0.1"
     strip-ansi "^3.0.1"
-
-wrMemoryGamey@1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/wrMemoryGamey/-/wrMemoryGamey-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
-  integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
 write-file-atomic@^2.1.0:
   version "2.4.3"
